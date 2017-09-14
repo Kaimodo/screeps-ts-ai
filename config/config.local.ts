@@ -11,7 +11,7 @@ function webpackConfig(options: EnvOptions = {}): Config {
   // it makes for much easier debugging:
   // (make sure you symlink the dir, not the files)
   // `# ln -s /path/to/local/deploy/dir ./dist/local`
-  const localPath = "C:\\Users\\kkrutscho.Lawrence\\AppData\\Local\\Screeps\\scripts\\87_106_157_173___21025\\dev";
+  const localPath = "";
   config.output.path(localPath);
 
   // modify the args of "define" plugin
